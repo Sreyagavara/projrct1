@@ -1,0 +1,65 @@
+h1
+{
+    text-align: center;
+    background-color: aliceblue;
+    padding:0px 10px;
+}
+body{
+    border: 5px solid black;
+    margin: 40px;
+}
+button{
+    background-color:black;
+    color:white;
+    width:100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+button:hover{
+    
+    color:black;
+    background-color: gray;
+}
+li{
+   list-style: square; 
+}
+.container{
+    margin:50px;
+}
+.shapes{
+display:flex;
+gap:10px;
+margin-top: 20px;
+}
+.sh{
+    width:25px;
+    height:25px;
+
+}
+.sh1{
+    background-color: aqua;
+}
+.sh2{
+    background-color: blue;
+}
+.sh3{
+    background-color: cadetblue;
+}
+.sh4{
+    background-color: chocolate;
+}
+.sh5{
+    background-color: blueviolet;
+}
+.sh6{
+    background-color: brown;
+}
+.sale{
+    padding: 10px 15px;
+    position: absolute;
+    background-color: red;
+    top:-0px;
+    left:-5px;
+    letter-spacing: 5px;
+}
